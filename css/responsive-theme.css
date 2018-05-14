@@ -1,0 +1,151 @@
+
+@media screen and (max-width: 991px){
+	.menubar .navbar-nav > li > a{ 
+		padding: 15px 7px;
+		font-size: 13px;
+	}
+
+	.read_more_btn{ font-size: 13px; margin-top: 10px; }
+
+	.index_page_head {
+	    font-size: 30px;
+	}
+
+	#about_us h3 { font-size: 20px; margin-top: 0px; }
+
+	#about_us p, #about_us p span { font-size: 14px; line-height: 24px; }
+
+	/*#about_us .read_more_btn{ margin-top: 10px; }*/
+
+
+	.course_box, .topper_box, .publish_box{
+		margin-bottom: 30px;
+	}
+
+	.gal_box, .vid_gal_box {
+		margin-bottom: 30px;
+	}
+	
+	.gal_img_wrap {
+		height: 195px;
+	}
+	
+	.gal_box h4, .vid_gal_box h4 {
+    	font-size: 18px;
+	}
+
+
+	.inner_page_head { font-size: 30px; }
+
+	.enq{ margin-top: 20px; }
+
+	.map_box iframe {
+	    height: 350px;
+	}
+}
+
+@media screen and (max-width: 767px){
+
+	#top{ display: none; }
+	.mobile_logo{ display: block; width: 120px; margin:auto; text-align: center; }
+
+	.menubar .logo{ display: none; }
+
+	.menubar .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	    background-color: #1e7dac;
+	}
+
+	.menubar .navbar-default .navbar-toggle .icon-bar {
+	    background-color: #fff;
+	}
+
+	.menubar .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+	    color: #fff;
+	}
+	.menubar .navbar-nav > li > a {
+    padding: 10px 7px;}
+
+	.about_us_img_box{ margin-top: 30px; }
+
+	.photo_gal_images .col-xs-12{
+		width: 50%;
+	}
+	
+	#gallery .read_more_btn {
+		margin-top: 0;
+	}
+	
+	.vid_gal_outer{
+		margin-top: 30px;
+	}
+	
+	.video_gal_wrap .col-xs-12{
+		width: 50%;
+	}
+
+	.address_box, .follow_us{
+		margin-top: 30px;
+		padding: 0px;
+		margin-bottom: 0;
+	}
+
+	#copyright p {  text-align: center; }
+	#copyright p.powered_by { text-align: center; }
+
+}
+
+@media screen and (max-width: 640px){
+	.footer_links{ background-color: transparent; }
+}
+
+@media screen and (max-width: 500px){
+
+
+	.courses_index_wrap .col-xs-6,
+	.toppers_index_wrap .col-xs-6,
+	.publication_index_wrap .col-xs-6{ width: 100%; }
+
+	.services_cont_wrapper .col-xs-12{
+		width: 100%;
+	}
+	
+	.service_box h3 {
+		font-size: 18px;
+	}
+	
+	#itemslider .col-xs-12{
+		width: 100%;
+	}
+	
+	.product_box h4 {
+		font-size: 18px;
+	}
+	
+	.photo_gal_images .col-xs-12{
+		width: 100%;
+	}
+	
+	.gal_img_wrap {
+		height: auto;
+	}
+	
+	.video_gal_wrap .col-xs-12{
+		width: 100%;
+	}
+	
+	.gal_box h4, .vid_gal_box h4 {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 460px){
+	.footer_links {
+	    display: block;
+	    padding: 2px;
+	    text-align: left;
+	}
+	.footer_links ul li a{
+		display: inline-block;
+	}
+	.footer_links_wrap .col-xs-3{ width: 100%; }
+}
